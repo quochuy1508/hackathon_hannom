@@ -45,6 +45,7 @@ function HomeScreen({ navigation }) {
 							<View
 								key={category.id}
 								style={{ flexDirection: 'row', margin: 10, borderWidth: 1, borderRadius: 30 }}
+								onStartShouldSetResponder={() => navigation.navigate('LearningStep')}
 							>
 								<Image
 									style={{

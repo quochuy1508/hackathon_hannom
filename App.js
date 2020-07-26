@@ -7,6 +7,8 @@ import IndexPage from './screen/IndexPage';
 import Chatbot from './screen/Chatbot';
 import Challenge from './screen/Challenge';
 import RoomChallenge from './screen/RoomChallenge';
+import LearningStep from './screen/LearningStep';
+import SearchWord from './screen/SearchWord';
 
 function CustomDrawerContent(props) {
 	return (
@@ -28,6 +30,8 @@ function MyDrawer() {
 			<Drawer.Screen name="Chatbot" component={Chatbot} />
 			<Drawer.Screen name="Challenge" component={Challenge} />
 			<Drawer.Screen name="RoomChallenge" component={RoomChallenge} />
+			<Drawer.Screen name="LearningStep" component={LearningStep} />
+			<Drawer.Screen name="SearchWord" component={SearchWord} />
 		</Drawer.Navigator>
 	);
 }
